@@ -1,0 +1,45 @@
+node_modules
+accp-upload.fpr
+*~
+.DS_Store
+src/swagger.json
+src/static/
+
+# Build Dir
+.gradle
+build
+dist
+
+# Logs
+*.log
+
+# Runtime data
+*pid*
+*.seed
+
+# Cache
+.npm
+.eslintcache
+yarn-cache
+
+# Reports
+reports/*
+!reports/int
+!reports/unit
+.scannerwork
+
+# Tests
+.nyc_output
+test-result.xml
+test/int/output/*.txt
+test/int/running
+
+# xcode
+.project
+.vscode/
+
+#dev
+*.env
+credentials.json
+
+coverage
