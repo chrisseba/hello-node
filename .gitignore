@@ -5,10 +5,7 @@ accp-upload.fpr
 src/swagger.json
 src/static/
 
-# Build Dir
-.gradle
-build
-dist
+
 
 # Logs
 *.log
